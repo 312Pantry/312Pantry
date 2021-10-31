@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		70BA1AD4272F5C170085CD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1AD3272F5C170085CD3E /* AppDelegate.swift */; };
 		70BA1AD6272F5C170085CD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1AD5272F5C170085CD3E /* SceneDelegate.swift */; };
-		70BA1AD8272F5C170085CD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1AD7272F5C170085CD3E /* ViewController.swift */; };
+		70BA1AD8272F5C170085CD3E /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1AD7272F5C170085CD3E /* MapVC.swift */; };
 		70BA1ADB272F5C170085CD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BA1AD9272F5C170085CD3E /* Main.storyboard */; };
 		70BA1ADE272F5C170085CD3E /* _12PantryStarter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1ADC272F5C170085CD3E /* _12PantryStarter.xcdatamodeld */; };
 		70BA1AE0272F5C190085CD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BA1ADF272F5C190085CD3E /* Assets.xcassets */; };
@@ -17,6 +17,9 @@
 		70BA1AEE272F5C1A0085CD3E /* _12PantryStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1AED272F5C1A0085CD3E /* _12PantryStarterTests.swift */; };
 		70BA1AF8272F5C1A0085CD3E /* _12PantryStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1AF7272F5C1A0085CD3E /* _12PantryStarterUITests.swift */; };
 		70BA1AFA272F5C1A0085CD3E /* _12PantryStarterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1AF9272F5C1A0085CD3E /* _12PantryStarterUITestsLaunchTests.swift */; };
+		70BA1B07272F5CA90085CD3E /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1B06272F5CA90085CD3E /* UploadVC.swift */; };
+		70BA1B09272F5CBE0085CD3E /* AugRealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1B08272F5CBE0085CD3E /* AugRealVC.swift */; };
+		70BA1B0B272F5CD30085CD3E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA1B0A272F5CD30085CD3E /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,7 @@
 		70BA1AD0272F5C170085CD3E /* 312PantryStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 312PantryStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BA1AD3272F5C170085CD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70BA1AD5272F5C170085CD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70BA1AD7272F5C170085CD3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70BA1AD7272F5C170085CD3E /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		70BA1ADA272F5C170085CD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70BA1ADD272F5C170085CD3E /* _12PantryStarter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _12PantryStarter.xcdatamodel; sourceTree = "<group>"; };
 		70BA1ADF272F5C190085CD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		70BA1AF3272F5C1A0085CD3E /* 312PantryStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 312PantryStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BA1AF7272F5C1A0085CD3E /* _12PantryStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _12PantryStarterUITests.swift; sourceTree = "<group>"; };
 		70BA1AF9272F5C1A0085CD3E /* _12PantryStarterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _12PantryStarterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70BA1B06272F5CA90085CD3E /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		70BA1B08272F5CBE0085CD3E /* AugRealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugRealVC.swift; sourceTree = "<group>"; };
+		70BA1B0A272F5CD30085CD3E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,10 @@
 			children = (
 				70BA1AD3272F5C170085CD3E /* AppDelegate.swift */,
 				70BA1AD5272F5C170085CD3E /* SceneDelegate.swift */,
-				70BA1AD7272F5C170085CD3E /* ViewController.swift */,
+				70BA1AD7272F5C170085CD3E /* MapVC.swift */,
+				70BA1B06272F5CA90085CD3E /* UploadVC.swift */,
+				70BA1B08272F5CBE0085CD3E /* AugRealVC.swift */,
+				70BA1B0A272F5CD30085CD3E /* LoginVC.swift */,
 				70BA1AD9272F5C170085CD3E /* Main.storyboard */,
 				70BA1ADF272F5C190085CD3E /* Assets.xcassets */,
 				70BA1AE1272F5C190085CD3E /* LaunchScreen.storyboard */,
@@ -261,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BA1AD8272F5C170085CD3E /* ViewController.swift in Sources */,
+				70BA1AD8272F5C170085CD3E /* MapVC.swift in Sources */,
 				70BA1AD4272F5C170085CD3E /* AppDelegate.swift in Sources */,
+				70BA1B0B272F5CD30085CD3E /* LoginVC.swift in Sources */,
 				70BA1ADE272F5C170085CD3E /* _12PantryStarter.xcdatamodeld in Sources */,
+				70BA1B07272F5CA90085CD3E /* UploadVC.swift in Sources */,
+				70BA1B09272F5CBE0085CD3E /* AugRealVC.swift in Sources */,
 				70BA1AD6272F5C170085CD3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
